@@ -2,6 +2,8 @@
 
 ## Link to Deployed Application
 
+https://deboh12.github.io/DEBORAHS-PORTFOLIO/
+
 ## Description
 
 Explore my portfolio—a digital reflection of my academic path, skills, and projects. Embarking on this project was fueled by a personal aspiration to establish an online presence that genuinely mirrors my journey, skills, and creative endeavors. This endeavor addresses the challenge of presenting a comprehensive overview of my skills and aspirations, offering visitors insights into my background and the projects I've poured my energy into. Throughout this process, I've gained a profound understanding of effective digital storytelling, where each section functions as a narrative piece contributing to a cohesive representation of who I am. It's not just about information; it's about creating a meaningful and holistic digital identity.
