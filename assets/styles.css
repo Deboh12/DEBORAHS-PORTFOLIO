@@ -1,0 +1,203 @@
+:root {
+    --background:  rgb(7, 7, 52);
+    --pink:  rgb(238, 154, 213);
+    --dark: rgb(63, 14, 52);
+    --lav:  rgb(178, 131, 240);
+}
+
+
+
+html {
+    background-color: var(--background);
+    margin: 1% 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--pink);
+    vertical-align: middle;
+    border: 1px solid white
+}
+
+header {
+text-align: center;
+padding: 20px;
+}
+
+.heading {
+    display: inline-block;
+    vertical-align: middle;
+    color: var(--pink);
+    padding: 0 30px;
+    font-size: 400%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center
+
+}
+
+.nav-list li {
+    padding: 0 40px;
+    font-size: 25px;
+}
+
+a {
+    color: var(--lav);
+}
+
+h2 {
+    color: var(--pink);
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    color: var(--lav);
+    font-size: 20px
+
+
+}
+
+.line {
+    box-shadow: 0px 0px 20px
+    rgb(213, 42, 219), 0px 0 10px
+    rgb(235, 102, 215);
+
+}
+
+
+
+.card-head {
+    color: var(--lav);
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    border: 1px solid var(--pink);
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: var(--background);
+}
+
+#main-card {
+    color: var(--lav);
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    border: 1px solid var(--pink);
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: var(--background);
+}
+
+
+.card {
+    border: 2px solid white;
+    width: 30%;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+
+#work-main {
+    border: 2px solid white;
+    width: 40%;
+    display: flex;
+    height: 200px;
+    margin: 20px;
+    border-radius: 8px;
+    margin: 40px auto 0 auto;
+}
+
+.card:hover, 
+#work-main:hover {
+    box-shadow: inset 0px 0px 8px
+    rgb(213, 42, 219), 0 0 30px
+    rgb(235, 102, 215);
+}
+
+.sect {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 50px 10px 0px 10px
+
+}
+
+
+
+
+.col-card {
+    background: linear-gradient(90deg, rgba(108, 15, 99, 0.3), rgba(221, 114, 180, 0.6), rgba(102, 10, 102, 0.5));
+    background-size: 200% 200%;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    position: relative; 
+    animation: gradientAnimation 5s linear infinite;
+}
+
+
+.main-col-card {
+    background: linear-gradient(90deg, rgba(108, 15, 99, 0.3), rgba(221, 114, 180, 0.6), rgba(102, 10, 102, 0.5));
+    background-size: 200% 200%;
+    width: 100%;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    position: relative; 
+    animation: gradientAnimation 5s linear infinite;
+}
+
+
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.contact-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.contact-list li{
+    padding: 20px 50px;
+    color: var(--lav);
+    display: flex;
+    font-size: 25px;
+    text-decoration: underline;
+}
