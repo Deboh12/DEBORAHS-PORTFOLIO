@@ -95,14 +95,16 @@ p {
     position: relative;
     top: 40px;
     border: 1px solid var(--pink);
-    width: 400px;
+    max-width: 400px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
     background-color: var(--background);
+    
 }
+
 
 
 .card {
@@ -198,6 +200,53 @@ p {
     padding: 20px 50px;
     color: var(--lav);
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 1225px) {
+    .contact-list li {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card {
+
+    }
+
+    .sect {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+   
+    }
+
+
+    .contact-list li {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    #work-main {
+        width: 80%;
+    }
+
+    .card {
+        width: 38%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card {
+        width: 50%;
+    }
+
+    .contact-list {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
